@@ -10,35 +10,42 @@ The TLMS integrates front, middle, and back-office functions through Straight Th
 
 ## Key Functional Modules
 
-### 1. Order Management & Trade Entry
+### 1. Secure Login & User Access Management
+
+- Role-based login for traders, operations, compliance, and admin users
+- Multi-factor authentication (MFA) via OTP or authenticator apps
+- Session timeout controls and encrypted credentials for enhanced security
+- Access control matrix to restrict module-level functionality by user role
+
+### 2. Order Management & Trade Entry
 
 - Multi-asset order capturing: Equities, bonds, futures, options, FX
 - Real-time trade blotter with search, filters, and order status
 - Trade enrichment (auto-populating trader ID, timestamps, asset metadata)
 - Configurable rule engine for pre-trade validations and alerts
 
-### 2. Trade Validation & Matching
+### 3. Trade Validation & Matching
 
 - Trade booking with counterparty reference checks
 - Real-time matching engine with T+0/T+1 tolerance logic
 - Auto-matching of internal trades and external broker feeds
 - Discrepancy handling and manual override workflows
 
-### 3. Settlement & Reconciliation
+### 4. Settlement & Reconciliation
 
 - Generation of settlement instructions (SSI)
 - Integration with clearinghouses and depositories (NSCCL, Euroclear)
 - Real-time settlement status updates (settled, pending, failed)
 - Daily reconciliation across trades, positions, and cash balances
 
-### 4. STP & Workflow Automation
+### 5. STP & Workflow Automation
 
 - Workflow engine for trade lifecycle events (booking, matching, settlement)
 - Auto-routing to middle and back-office teams based on trade attributes
 - Maker-checker mechanism with audit trail and role-based approvals
 - Integration with compliance and risk modules for exception handling
 
-### 5. Front, Middle, and Back Office Integration
+### 6. Front, Middle, and Back Office Integration
 
 - **Front Office**: Real-time trade blotters, alerts, and order entry
 - **Middle Office**: Trade validation, compliance, and matching checks
