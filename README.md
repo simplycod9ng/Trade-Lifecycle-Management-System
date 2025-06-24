@@ -1,4 +1,4 @@
-# Trade-Lifecycle-Management-System
+# Trade-Management-System
 
 This README provides an overview and implementation guide for developers, business analysts, project managers, and stakeholders involved in the **Trade Lifecycle Management System (TLMS)** initiative. It captures the business context, key features, technology stack, testing strategy, and implementation approach for designing and delivering an enterprise-grade platform to streamline the complete trade lifecycle — from order initiation to final settlement.
 
