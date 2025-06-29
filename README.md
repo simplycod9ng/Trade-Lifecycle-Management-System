@@ -1,12 +1,12 @@
-# Trade-Management-System
+# Trade-Operations-Management-System
 
-This README provides an overview and implementation guide for developers, business analysts, project managers, and stakeholders involved in the **Trade Lifecycle Management System (TLMS)** initiative. It captures the business context, key features, technology stack, testing strategy, and implementation approach for designing and delivering an enterprise-grade platform to streamline the complete trade lifecycle — from order initiation to final settlement.
+This README provides an overview and implementation guide for developers, business analysts, project managers, and stakeholders involved in the **Trade Operations Management System (TOMS)** initiative. It captures the business context, key features, technology stack, testing strategy, and implementation approach for designing and delivering an enterprise-grade platform to streamline the complete trade lifecycle — from order initiation to final settlement.
 
 ## Project Overview
 
-The Trade Lifecycle Management System is a high-performance financial platform designed to automate and monitor the end-to-end lifecycle of trades across asset classes such as equities, derivatives, and fixed income instruments. The platform supports real-time trade capture, validation, matching, confirmation, settlement, and reconciliation. It is tailored for global financial institutions seeking to modernize post-trade operations, reduce manual intervention, and ensure regulatory compliance.
+The Trade Operations Management System is a high-performance financial platform designed to automate and monitor the end-to-end lifecycle of trades across asset classes such as equities, derivatives, and fixed income instruments. The platform supports real-time trade capture, validation, matching, confirmation, settlement, and reconciliation. It is tailored for global financial institutions seeking to modernize post-trade operations, reduce manual intervention, and ensure regulatory compliance.
 
-The TLMS integrates front, middle, and back-office functions through Straight Through Processing (STP), facilitating seamless communication between traders, custodians, exchanges, clearinghouses, and internal systems.
+The TOMS integrates front, middle, and back-office functions through Straight Through Processing (STP), facilitating seamless communication between traders, custodians, exchanges, clearinghouses, and internal systems.
 
 ## Key Functional Modules
 
@@ -121,5 +121,5 @@ Project documentation is centralized for transparency and audit-readiness:
 
 ## Conclusion
 
-The Trade Lifecycle Management System empowers financial institutions to automate, monitor, and scale their trade processing infrastructure while complying with global regulations. With a unified view across front, middle, and back office functions, TLMS enhances operational efficiency, reduces settlement risk, and improves STP rates — ultimately enabling faster, smarter, and more compliant trading operations.
+The Trade Operations Management System empowers financial institutions to automate, monitor, and scale their trade processing infrastructure while complying with global regulations. With a unified view across front, middle, and back office functions, TLMS enhances operational efficiency, reduces settlement risk, and improves STP rates — ultimately enabling faster, smarter, and more compliant trading operations.
 
